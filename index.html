@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7cd1de9ef0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Groceries App</title>
+  </head>
+
+  <body>
+    <!-- Header & Navbar -->
+    <header>
+      <nav class="navbar bg-success">
+        <div class="container">
+          <span class="navbar-brand mb-0 h1 text-white"
+            ><i class="fa-solid fa-cart-shopping"></i> Groceries App</span
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="add-items">
+          <h4 class="mt-3">Add new item</h4>
+          <div class="input-group input-group-default mb-3 mt-3">
+            <input
+              type="text"
+              class="form-control"
+              id="item-name"
+              placeholder="Item's name"
+            />
+            <button
+              class="btn btn-success btn-sm"
+              id="add-item-btn"
+              type="button"
+            >
+              <i class="fa-solid fa-plus"></i> Add item
+            </button>
+          </div>
+        </div>
+
+        <div class="items-list">
+          <h4 class="mt-3">Items list</h4>
+          <ul class="list-group" id="list-group">
+            <!-- Items goes here -->
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="/js/main.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
